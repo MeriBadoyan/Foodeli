@@ -144,7 +144,6 @@ h1 {
 	padding-bottom: 25px;
 }
 
-
 .h1Span {
 	font-family: 'Lobster Two', cursive;
 	color: #eb0029;
@@ -249,4 +248,94 @@ h1 {
 	font-weight: 500;
 	line-height: 22px;
 	color: #828282;
+}
+
+.picZone {
+	position: relative;
+}
+
+.icons {
+	position: absolute;
+}
+
+.fire {
+	right: 94px
+}
+
+.vector {
+	right: 14px;
+	top: 80px
+}
+
+.courier {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	width: fit-content;
+	justify-content: space-between;
+	padding: 9px 15px;
+	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+	border-radius: 50px;
+	left: -63px;
+	top: 505px;
+}
+
+.courierPhoto {
+	background-color: #fee9de;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+	margin-right: 24px;
+}
+
+.phoneIcon {
+	margin-left: 60px;
+}
+
+.courierName {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #000000;
+}
+
+.courierPosition {
+	font-weight: 500;
+	font-size: 12px;
+	color: #828282;
+}
+
+.pizza {
+	display: flex;
+	align-items: center;
+	background: #fff;
+	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+	border-radius: 20px 0 0 0;
+	width: fit-content;
+	position: absolute;
+	right: 26px;
+	bottom: 68px;
+}
+
+.pizzaImg {
+	margin: 17px;
+}
+
+.foodName {
+	font-weight: 600;
+	font-size: 15px;
+	color: #000000;
+	margin-right: 30px;
+}
+
+.cost {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.cost span {
+	font-size: 10px;
+	color: #eb0029;
+	padding-right: 3px;
 }
