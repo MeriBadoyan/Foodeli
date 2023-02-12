@@ -129,3 +129,124 @@ header {
 	stroke: #eb0029;
 	fill: #eb0029;
 }
+
+.firstSection {
+	display: flex;
+	margin: 125px 118px 15px 95px;
+
+}
+
+h1 {
+	font-family: 'Rubik', sans-serif;
+	color: #010F1C;
+	font-size: 67px;
+	line-height: 85px;
+	padding-bottom: 25px;
+}
+
+
+.h1Span {
+	font-family: 'Lobster Two', cursive;
+	color: #eb0029;
+	font-size: 80px;
+}
+
+.hZone>p {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.slogan {
+	display: flex;
+	background-color: #FEE9DE;
+	gap: 5px;
+	border-radius: 50px;
+	padding: 11px 20px;
+	width: fit-content;
+	margin-bottom: 50px;
+	font-weight: 500;
+}
+
+.videoDiv {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.getStarted {
+	padding: 22px 41px;
+	background-color: #eb0029;
+	border-radius: 50px;
+	border: #eb0029 1px solid;
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	margin-right: 90px;
+}
+
+.watchVideo {
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: #333333;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.watchVideo img {
+	position: absolute;
+	left: -110px;
+}
+
+.happyCustomers {
+	display: flex;
+	align-items: center;
+	margin-top: 117px;
+}
+
+.happyCust {
+	border: #fff 1px solid;
+	border-radius: 50%;
+}
+
+.happyCustomersImg {
+	position: relative;
+	margin-right: 110px;
+}
+
+.pic2 {
+	position: absolute;
+	right: -43px;
+	z-index: 1;
+}
+
+.pic3 {
+	position: absolute;
+	right: -86px;
+	z-index: 1;
+}
+
+.custDesc p {
+	font-weight: 600;
+}
+
+.reviewDiv {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.rating {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22px;
+	color: #000000;
+}
+
+.reviewNumber {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22px;
+	color: #828282;
+}
