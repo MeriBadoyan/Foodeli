@@ -424,10 +424,6 @@ h2 {
 	text-align: center;
 }
 
-.thirdSection {
-	margin-top: 121px;
-}
-
 .orderInfo h6 {
 	font-weight: 700;
 	font-size: 28px;
@@ -442,9 +438,139 @@ h2 {
 }
 
 /* third seciton */
+
 .thirdSection {
-	display: none;
+	margin-left: 95px;
 }
+
+.thirdSection {
+	margin-top: 121px;
+}
+
+.thirdSection h2 {
+	padding: 20px 0 33px 0;
+	width: 40%;
+}
+
+.header-arrows {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin-right: 149px;
+	margin-bottom: 35px;
+}
+
+.rightArrow {
+	margin-left: 37px;
+	margin-right: 75px;
+}
+
+.rightArrow:hover rect,
+.leftArrow:hover rect {
+	fill: #eb0029;
+}
+
+.rightArrow:hover path,
+.leftArrow:hover path {
+	fill: #fff;
+}
+
+.menuContainer {
+	display: flex;
+}
+
+.menuDiv {
+	display: flex;
+	flex-direction: column;
+	max-height: 550px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.menuDiv a {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 22px;
+	color: #000000;
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 22px;
+	justify-content: start;
+	align-items: center;
+	margin-right: 75px;
+	padding: 19px 35px 19px 20px;
+	margin-bottom: 28px;
+}
+
+.menuDiv a:focus-within {
+	background-color: #eb0029;
+	border-radius: 50px;
+}
+
+.menuDiv a:focus-within img {
+	border: #eb0029 1px solid;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.menuDiv a img {
+	width: 41px;
+	height: 41px;
+	padding: 5px;
+}
+
+.meals {
+	display: flex;
+	gap: 35px;
+	margin-left: 75px;
+}
+
+.mealName {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 22px;
+	display: flex;
+	color: #FFFFFF;
+}
+
+.mealCost {
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 22px;
+	color: #fff;
+	padding: 30px 0 50px 0;
+}
+
+.mealCost span {
+	font-size: 24px;
+	font-weight: 700;
+	color: #F2C94C;
+}
+
+.mealsDescr a {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	color: #FFFFFF;
+}
+
+.mealsDescr {
+	position: absolute;
+	bottom: 55px;
+	left: 39px;
+}
+
+.meals>div {
+	position: relative;
+}
+
+
+.mealsDescr a:hover {
+	color: #eb0029;
+}
+
+
 
 /* forth section */
 
