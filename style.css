@@ -550,3 +550,84 @@ h2 {
 	right: 88px;
 	bottom: 133px;
 }
+
+/* footer */
+
+footer {
+	display: flex;
+	margin: 152px 95px 90px 122px;
+	justify-content: space-between;
+}
+
+.footerLogo {
+	max-width: 300px;
+	margin-right: 90px;
+}
+
+.footerLogo p {
+	padding: 34px 0 46px 0;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	color: #333333;
+}
+
+.socialLinks {
+	display: flex;
+	gap: 50px;
+	margin-left: 10px;
+}
+
+.socialLinks a:hover svg path {
+	fill: #fff;
+	stroke: #eb0029;
+}
+
+footer ul>li>a {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	color: #333333;
+	padding-bottom: 12px;
+}
+
+footer ul>li>a:hover {
+	color: #eb0029;
+	font-weight: 700;
+}
+
+.firstElement {
+	display: inline-block;
+	font-family: 'Rubik';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 22px;
+	color: #000000;
+	padding-bottom: 25px;
+}
+
+.emailAddress {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000000;
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	margin-top: 20px;
+	border: 1px solid #bebebe;
+	padding: 11px 20px;
+	padding-right: 0;
+	border-radius: 50px;
+}
+
+.emailAddress:hover {
+	background-color: #eb0029;
+	color: #fff;
+}
+
+.emailAddress:hover svg path {
+	fill: #fff;
+	stroke: #fff;
+}
