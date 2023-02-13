@@ -295,7 +295,8 @@ h1 {
 	top: 80px
 }
 
-.courier {
+.courier,
+.courier2 {
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -305,8 +306,17 @@ h1 {
 	padding: 9px 15px;
 	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
 	border-radius: 50px;
+
+}
+
+.courier {
 	left: -63px;
 	top: 505px;
+}
+
+.courier2 {
+	left: 375px;
+	bottom: 68px;
 }
 
 .courierPhoto {
@@ -555,7 +565,7 @@ h2 {
 
 footer {
 	display: flex;
-	margin: 152px 95px 90px 122px;
+	margin: 0 95px 90px 122px;
 	justify-content: space-between;
 }
 
@@ -590,11 +600,15 @@ footer ul>li>a {
 	line-height: 30px;
 	color: #333333;
 	padding-bottom: 12px;
+	transition: 0.3s;
+}
+
+.getInTouch ul>li>a:not(.firstElement) {
+	font-size: 18px;
 }
 
 footer ul>li>a:hover {
 	color: #eb0029;
-	font-weight: 700;
 }
 
 .firstElement {
@@ -620,6 +634,7 @@ footer ul>li>a:hover {
 	padding: 11px 20px;
 	padding-right: 0;
 	border-radius: 50px;
+	transition: 0.3s;
 }
 
 .emailAddress:hover {
@@ -630,4 +645,81 @@ footer ul>li>a:hover {
 .emailAddress:hover svg path {
 	fill: #fff;
 	stroke: #fff;
+}
+
+/* fifthSection */
+
+.fifthSection {
+	margin: 142px 95px;
+	background-color: #FFDDCC40;
+	border-radius: 30px;
+	padding: 121px 85px 132px 85px;
+	position: relative;
+}
+
+.smile {
+	top: 120px;
+	left: 571px;
+}
+
+.smileTongue {
+	top: 235px;
+	right: 170px;
+}
+
+.zigzag1 {
+	right: -20px;
+	top: 187px;
+}
+
+.zigzag2 {
+	right: -20px;
+	top: 169px;
+}
+
+.fire2 {
+	right: 647px;
+	bottom: 186px;
+}
+
+.notifFrame {
+	top: 214px;
+	left: 579px;
+}
+
+.phone {
+	right: 157px;
+	bottom: 1px;
+}
+
+.fifthSection>p {
+	max-width: 434px;
+	padding-top: 33px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+	color: #333333;
+}
+
+.fifthSection h3 {
+	padding-bottom: 25px;
+}
+
+.fifthSection>a {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+	padding: 22.5px 45px;
+	border-radius: 50px;
+	border: 1px solid #eb0029;
+	background-color: #eb0029;
+	margin-top: 33px;
+	transition: 0.3s;
+}
+
+.fifthSection>a:hover {
+	background-color: #fff;
+	color: #eb0029;
 }
